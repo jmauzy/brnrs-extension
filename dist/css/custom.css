@@ -1,0 +1,87 @@
+body {
+  background-color: #eaeaea;
+  width: 279px;
+  font-family: "Monsterrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#app {
+  padding: 15px 0;
+}
+
+#title {
+  padding-top: 15px;
+  font-size: 18pt;
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+.logo {
+  width: 150px;
+}
+
+.copy-button {
+  background-color: #eaeaea;
+  border: 1px solid #9c9c9c;
+  padding: 3px 6px;
+  margin-top: 7px;
+}
+.results {
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+}
+
+.close-button {
+  margin-top: 15px;  
+}
+
+.results p {
+  padding-top: 10px;
+}
+
+.rdtPicker {
+  position: relative !important;
+}
+
+.rdtDayPart {
+  margin-top: 38% !important;
+}
+
+.rdtPrev span {
+  font-size: 0 !important;
+}
+
+.rdtPrev span:after {
+  font-size: 21pt !important;
+  content: "<" !important;
+}
+
+.rdtNext span {
+  font-size: 0 !important;
+}
+
+.rdtNext span:after {
+  font-size: 21pt !important;
+  content: ">" !important;
+}
+
+.rdtBtn:first-child {
+  font-size: 0 !important;
+}
+.rdtBtn:first-child:after {
+  font-size: 14pt !important;
+  content: "^";
+}
+
+.rdtBtn:last-child {
+  font-size: 0 !important;
+}
+.rdtBtn:last-child:after {
+  font-size: 14pt !important;
+  content: "v";
+}
